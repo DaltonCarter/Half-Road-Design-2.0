@@ -37,10 +37,10 @@ export default function Home() {
       </div>
 
       <br />
-      <div>
-        Wallet: {wallet}
+      <div className="flex flex-col justify-center items-center">
+        <p>Wallet: {wallet}</p>
       <br/>
-      <Button type={"Add 100"} onClick={() => gainMoney(100)}/>
+      <Button className='border-4 border-double border-red-700' type={"Add 100"} onClick={() => gainMoney(100)}/>
       
       </div>
       <br />
